@@ -11,7 +11,7 @@ module.exports = function() {
     } else if (uaMatches && uaMatches.length) {
         //<= IE10
         isIe = true;
-        version = uaMatches[1];
+        version = Number(uaMatches[1]);
     }
 
     return {
