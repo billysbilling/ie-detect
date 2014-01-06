@@ -1,6 +1,6 @@
 {
   "name": "ie-detect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/billysbilling/ie-detect",
   "main": "src/js/ie-detect.js",
   "billy-builder": {
