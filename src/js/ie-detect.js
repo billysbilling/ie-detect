@@ -4,7 +4,7 @@ module.exports = function() {
         uaMatches = navigator.userAgent.match("MSIE ([0-9.]+)");
 
     //Check for <= IE11
-    if (!(window.ActiveXObject) && "ActiveXObject") {
+    if (!(window.ActiveXObject) && typeof(ActiveXObject) !== "undefined") {
         //IE11
         isIe = true;
         version = 11;
