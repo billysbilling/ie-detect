@@ -1,0 +1,20 @@
+{
+  "name": "ie-detect",
+  "version": "1.0.0",
+  "homepage": "https://github.com/billysbilling/ie-detect",
+  "main": "src/js/ie-detect.js",
+  "billy-builder": {
+    "include": [
+      "src/js",
+      "src/templates"
+    ]
+  },
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

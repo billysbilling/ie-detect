@@ -1,0 +1,8 @@
+{
+  "name": "ie-detect",
+  "version": "1.0.0",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "billy-builder": "git://github.com/billysbilling/billy-builder.git"
+  }
+}
