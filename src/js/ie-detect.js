@@ -8,7 +8,7 @@ module.exports = function() {
         //IE11
         isIe = true;
         version = 11;
-    } else if (uaMatches.length) {
+    } else if (uaMatches && uaMatches.length) {
         //<= IE10
         isIe = true;
         version = uaMatches[1];
